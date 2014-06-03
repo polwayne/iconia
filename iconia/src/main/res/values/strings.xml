@@ -28,5 +28,8 @@
     <string name="title_activity_preferences">PreferencesActivity</string>
     <string name="wrong_pin">Wrong pin</string>
     <string name="please_enter_pin">Please enter your pin</string>
+    <string name="backup">Backup</string>
+    <string name="create_backup">Create Backup</string>
+    <string name="create_backup_summary">Create a Backup of your personal Data on your Filesystem</string>
 
 </resources>

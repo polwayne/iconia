@@ -2,14 +2,23 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory
-        android:title="@string/security"
-        android:key="pref_key_security_settings">
-    <EditTextPreference
-        android:title="@string/pin"
-        android:summary="@string/pin_summary"
-        android:inputType="numberDecimal"
-        android:password="true"
-        android:key="pref_key_security_pin"/>
+        android:key="pref_key_security_settings"
+        android:title="@string/security">
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:key="pref_key_security_pin"
+            android:password="true"
+            android:summary="@string/pin_summary"
+            android:title="@string/pin" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_key_backup_settings"
+        android:title="@string/backup">
+    <Preference
+        android:title="@string/create_backup"
+        android:key="pref_key_create_backup"
+        android:summary="@string/create_backup_summary"/>
 
     </PreferenceCategory>
+
 </PreferenceScreen>
