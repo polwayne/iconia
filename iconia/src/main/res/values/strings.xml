@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Iconia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string-array name="nav_drawer">
+        <item>All</item>
+        <item>Thoughts</item>
+        <item>Dreams</item>
+        <item>Memories</item>
+        <item>Settings</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="your_story">Your story</string>
+    <string name="title_activity_create_item">CreateItemActivity</string>
+    <string name="action_save">save</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">delete</string>
+    <string name="security">Security</string>
+    <string name="pin_summary">Secure your memories with a pin</string>
+    <string name="pin">Pin</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="wrong_pin">Wrong pin</string>
+    <string name="please_enter_pin">Please enter your pin</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<RadioGroup
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/rdogrp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="8dp"
+android:gravity="center"
+android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/default_margin"
+    android:layout_marginRight="@dimen/default_margin">
+
+<RadioButton
+    android:id="@+id/btn1"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:padding="10dp"
+    android:background="@drawable/btn1selector"
+    android:button="@null"
+    android:checked="true"
+    android:text="Thought"
+    android:gravity="center" />
+
+<RadioButton
+    android:id="@+id/btn2"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:padding="10dp"
+    android:background="@drawable/btn2selector"
+    android:button="@null"
+    android:text="Dream"
+    android:gravity="center" />
+
+<RadioButton
+    android:id="@+id/btn3"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:padding="10dp"
+    android:background="@drawable/btn3selector"
+    android:button="@null"
+    android:text="Memory"
+    android:gravity="center" />
+
+</RadioGroup>
