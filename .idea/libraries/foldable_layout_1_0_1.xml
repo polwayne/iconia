@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="foldable-layout-1.0.1">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/iconia/build/exploded-aar/com.alexvasilkov/foldable-layout/1.0.1/res" />
-      <root url="jar://$PROJECT_DIR$/iconia/build/exploded-aar/com.alexvasilkov/foldable-layout/1.0.1/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/iconia/build/intermediates/exploded-aar/com.alexvasilkov/foldable-layout/1.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/iconia/build/intermediates/exploded-aar/com.alexvasilkov/foldable-layout/1.0.1/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alexvasilkov/foldable-layout/1.0.1/59a9dd35f8d31de01991ee56b741e9e992914895/foldable-layout-1.0.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
